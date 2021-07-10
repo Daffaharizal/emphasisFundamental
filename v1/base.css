@@ -28,9 +28,19 @@ li {
     padding: 50px 0px;
 }
 
+.main {
+    height: 600px;
+    background-color: rgb(117, 117, 117);
+}
+
+.article {
+   
+}
+
 .footer {
-    height: 140px;
-    background-color: beige;
+    height: 150px;
+    background-color: rgb(31, 31, 31);
+    color: rgb(206, 216, 65);
 }
 
 .footer-logo img {
@@ -41,7 +51,7 @@ li {
 
 .footer-list {
     float: left;
-    padding: 50px 0px;
+    padding-top: 50px;
 }
 
 .footer-list li {
