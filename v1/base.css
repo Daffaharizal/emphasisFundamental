@@ -8,8 +8,8 @@ li {
 }
 .header {
     height: 120px;
-    background-color: rgb(82, 82, 82);
-    color: white;
+    background-color: #4f4f4f;
+    color: #e5e5e5;
     background-image: url(../../folderPenting!/bahanFoto/pexels1/pexels-eric-esma-876228.jpg);
     border-bottom: solid rgb(255, 255, 255);
 }
@@ -30,8 +30,8 @@ li {
 }
 
 .main {
-    height: 600px;
-    background-color: rgb(117, 117, 117);
+    height: 650px;
+    background-color: rgb(37, 189, 70);
 }
 
 .article {
@@ -39,9 +39,10 @@ li {
 }
 
 .footer {
-    height: 150px;
-    background-color: rgb(31, 31, 31);
-    color: rgb(206, 216, 65);
+    height: 130px;
+    background-color: #4f4f4f;
+    background-image: url(../../folderPenting!/bahanFoto/pexels1/pexels-kai-pilger-2276706.jpg);
+    color: #e5e5e5;
     /* memberi garis batas pada elemen div.footer berwarna putih */
     border-top: solid white;
 }
@@ -49,7 +50,8 @@ li {
 .footer-logo img {
     float: left;
     width: 80px;
-    padding: 30px 30px;
+    padding-top: 30px;
+    padding-left: 30px;
 }
 
 .footer-list {
