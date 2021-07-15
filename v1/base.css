@@ -1,16 +1,21 @@
 body {
     margin: 0;
-    font-family: helvetica;
+    font-family: Quicksand,sans-serif !important;
+    font-weight: none;
 }
 
 li {
     /* list-style: none; */
 }
+
+.header, .footer {
+    background-color: #4f4f4f;
+}
+
 .header {
     height: 120px;
-    background-color: #4f4f4f;
     color: #e5e5e5;
-    background-image: url(../../folderPenting!/bahanFoto/pexels1/pexels-eric-esma-876228.jpg);
+    /* background-image: url(../../folderPenting!/bahanFoto/pexels1/pexels-eric-esma-876228.jpg); */
     border-bottom: solid rgb(255, 255, 255);
 }
 
@@ -34,14 +39,14 @@ li {
     background-color: rgb(37, 189, 70);
 }
 
-.article {
-   
+table{
+    margin: 0;
+    padding: 10px;
 }
 
 .footer {
     height: 130px;
-    background-color: #4f4f4f;
-    background-image: url(../../folderPenting!/bahanFoto/pexels1/pexels-kai-pilger-2276706.jpg);
+    /* background-image: url(../../folderPenting!/bahanFoto/pexels1/pexels-kai-pilger-2276706.jpg); */
     color: #e5e5e5;
     /* memberi garis batas pada elemen div.footer berwarna putih */
     border-top: solid white;
@@ -57,8 +62,13 @@ li {
 .footer-list {
     float: left;
     padding-top: 50px;
+    padding-left: 100px;
 }
 
 .footer-list li {
     float: left;
+}
+
+span {
+    color: red;
 }
