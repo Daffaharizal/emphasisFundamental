@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>latihan3</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>latihan3</title>
+    <style>
+        /* untuk menargetkan seluruh tipe elemen */
+        * {
+            color: rgb(128, 128, 128);
+        }
+
+        #special {
+            background-color: skyblue;
+        }
+
+        /* <a> element yang menerapkan href attribut */
+        a[href] {
+            color: blue;
+        }
+
+        *#special {
+            background-color: indigo;
+        }
+
+        li {
+            color: lightcoral;
+        }
+
+        *..warning {
+            color: green;
+        }
+
+        img {
+            float: left;
+            width: 800px;
+        }
+ 
+       a[href^="#"] {
+           background-color: gold;
+       }
+ 
+       a[href*="example"] {
+           background-color: silver;
+       }
+ 
+       a[href*="InSensitive" i] {
+           color: cyan;
+       }
+
+       a[href$=".org"] {
+           color: red;
+       }
+       
+       #baseng {
+           color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="special">
+        <p>Ini merupakan div yang diberi nama id.special</p>
+    </div>
+    <div>
+        <p id="baseng">Membahas tentang :</p>
+        <ul type="none">
+            <li>ID Selector</li>
+            <li>Atribut Selector</li>
+            <li>Universal Selector</li>
+        </ul>
+    </div>
+    <div>
+        <img src="../../teoriProgramming/atributSelector.jpg" alt="Baseng"><img src="../../teoriProgramming/atributSelector.jpg" alt="Baseng">
+    </div>
+    <div>
+
+    <ul>
+        <ul>
+            <li><a href="#internal">Internal link</a></li>
+            <li><a href="www.google.com">Example link</a></li>
+            <li><a href="#InSensitive">Insensitive internal link</a></li>
+            <li><a href="http://example.org">Example org link</a></li>
+        </ul>
+    </ul>
+</body>
+
+</html>
+</body>
+</html>
