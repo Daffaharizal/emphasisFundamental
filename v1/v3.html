@@ -19,6 +19,9 @@
         /* untuk menargetkan seluruh tipe elemen */
         * {
             color: rgb(128, 128, 128);
+            margin: 0;
+            padding: 0;
+            font-family: helvetica;
         }
 
         #special {
@@ -32,6 +35,12 @@
 
         *#special {
             background-color: indigo;
+            height: 100px;
+        }
+
+        /* langsung menginisialisasi 2 selector */
+        p + ul {
+            line-height: 25px;
         }
 
         li {
@@ -43,8 +52,7 @@
         }
 
         img {
-            float: left;
-            width: 800px;
+            width: 600px;
         }
  
        a[href^="#"] {
@@ -68,19 +76,31 @@
         }
     </style>
 </head>
-
 <body>
     <div id="special">
         <p>Ini merupakan div yang diberi nama id.special</p>
     </div>
-    <div>
-        <p id="baseng">Membahas tentang :</p>
-        <ul type="none">
-            <li>ID Selector</li>
-            <li>Atribut Selector</li>
-            <li>Universal Selector</li>
-        </ul>
-    </div>
+    <!doctype html>
+<html lang="en">
+<head>
+   <title>Judul Dokumen</title>
+   <style>
+       /* Rule akan diterapkan pada elemen header yang berada tepat setelah elemen img */
+       img ~ p {
+           color: green;
+       }
+   </style>
+</head>
+<body>
+<p>Ini merupakan paragraf pertama. Rule styling tidak akan diterapkan pada elemen paragraf ini.</p>
+<img src="https://i.imgur.com/cs2BJzw.jpg" alt="Dicoding logo" width="400px">
+<p>Ini merupakan paragraf kedua dan ditetapkan setelah elemen gambar. Maka paragraf ini menerapkan rule dengan menampilkan teks berwarna hijau.</p>
+<div>
+   <p>Ini merupakan paragraf ketiga, letaknya setelah elemen gambar, namun paragraf ini dibungkus di dalam div sehingga paragraf ini tidak akan menerapkan rule styling karena tidak memiliki induk yang sama.</p>
+</div>
+<p>Ini merupakan paragraf empat. Letaknya memang setelah elemen gambar dan memiliki induk yang sama seperti elemen gambar, sehingga elemen ini akan menerapkan rule dengan menampilkan teks berwarna hijau.</p>
+</body>
+</html>
     <div>
         <img src="../../teoriProgramming/atributSelector.jpg" alt="Baseng">
     </div>
