@@ -7,14 +7,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>latihan2</title>
     <style>
+        /* untuk menargetkan seluruh tipe elemen */
+        * {
+            color: rgb(128, 128, 128);
+        }
+
         #special {
             background-color: skyblue;
         }
 
         /* <a> element yang menerapkan href attribut */
-       a[href] {
-           color: blue;
-       }
+        a[href] {
+            color: blue;
+        }
+
+        /* menerapkan ke seluruh elemen yang ber.id = special. */
+        *#special {
+            background-color: indigo;
+        }
+
+        li {
+            color: lightcoral;
+        }
+
+        *..warning {
+            color: green;
+        }
+
+        img {
+            float: left;
+            width: 800px;
+        }
  
        /* <a> element yang menerapkan nilai pada href dengan awalan "#" */
        a[href^="#"] {
@@ -34,7 +57,11 @@
        /* <a> element yang menerapkan nilai pada href dengan akhiran ".org" */
        a[href$=".org"] {
            color: red;
-       }      
+       }
+       
+       #baseng {
+           color: blue;
+        }
     </style>
 </head>
 
@@ -43,17 +70,26 @@
         <p>Ini merupakan div yang diberi nama id.special</p>
     </div>
     <div>
-        <p>ini percobaan aja</p>
+        <p id="baseng">Membahas tentang :</p>
+        <ul type="none">
+            <li>ID Selector</li>
+            <li>Atribut Selector</li>
+            <li>Universal Selector</li>
+        </ul>
     </div>
+    <div>
+        <img src="../../teoriProgramming/atributSelector.jpg" alt="Baseng"><img src="../../teoriProgramming/atributSelector.jpg" alt="Baseng">
+    </div>
+    <div>
 
     <ul>
         <ul>
             <li><a href="#internal">Internal link</a></li>
-            <li><a href="http://example.com">Example link</a></li>
+            <li><a href="www.google.com">Example link</a></li>
             <li><a href="#InSensitive">Insensitive internal link</a></li>
             <li><a href="http://example.org">Example org link</a></li>
         </ul>
-     </ul>
+    </ul>
 </body>
 
 </html>
