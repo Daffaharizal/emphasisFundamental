@@ -1,0 +1,41 @@
+body {
+    font-family: helvetica;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 150px;
+    background-image: url(../../folderPenting!/bahanFoto/pexels1/pexels-eric-esma-876228.jpg);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.header-logo img {
+    width: 200px;
+    padding-top: 7px;
+}
+
+.header-logo {
+    float: left;
+}
+
+ul {
+    float: right;
+    list-style: none;
+    padding: 20px;
+    padding-right: 40px;
+    padding-top: 85px;
+}
+
+li {
+    float: right;
+    padding: 30px;
+    text-shadow: violet;
+}
+
+
+
