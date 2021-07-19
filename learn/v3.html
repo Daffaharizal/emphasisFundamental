@@ -74,38 +74,25 @@
        #baseng {
            color: blue;
         }
-    </style>
-</head>
-<body>
-    <div id="special">
-        <p>Ini merupakan div yang diberi nama id.special</p>
-    </div>
-    <!doctype html>
-<html lang="en">
-<head>
-   <title>Judul Dokumen</title>
-   <style>
-       /* Rule akan diterapkan pada elemen header yang berada tepat setelah elemen img */
+
+        /* Rule akan diterapkan pada elemen header yang berada tepat setelah elemen img dan masih satu induk yang sama */
        img ~ p {
            color: green;
        }
-   </style>
-</head>
+    </style>
 <body>
-<p>Ini merupakan paragraf pertama. Rule styling tidak akan diterapkan pada elemen paragraf ini.</p>
-<img src="https://i.imgur.com/cs2BJzw.jpg" alt="Dicoding logo" width="400px">
-<p>Ini merupakan paragraf kedua dan ditetapkan setelah elemen gambar. Maka paragraf ini menerapkan rule dengan menampilkan teks berwarna hijau.</p>
-<div>
-   <p>Ini merupakan paragraf ketiga, letaknya setelah elemen gambar, namun paragraf ini dibungkus di dalam div sehingga paragraf ini tidak akan menerapkan rule styling karena tidak memiliki induk yang sama.</p>
-</div>
-<p>Ini merupakan paragraf empat. Letaknya memang setelah elemen gambar dan memiliki induk yang sama seperti elemen gambar, sehingga elemen ini akan menerapkan rule dengan menampilkan teks berwarna hijau.</p>
+    <p>Ini merupakan paragraf pertama. Rule styling tidak akan diterapkan pada elemen paragraf ini.</p>
+    <img src="https://i.imgur.com/cs2BJzw.jpg" alt="Dicoding logo" width="400px">
+    <p>Ini merupakan paragraf kedua dan ditetapkan setelah elemen gambar. Maka paragraf ini menerapkan rule dengan menampilkan teks berwarna hijau.</p>
+    <div>
+        <p>Ini merupakan paragraf ketiga, letaknya setelah elemen gambar, namun paragraf ini dibungkus di dalam div sehingga paragraf ini tidak akan menerapkan rule styling karena tidak memiliki induk yang sama.</p>
+    </div>
+    <p>Ini merupakan paragraf empat. Letaknya memang setelah elemen gambar dan memiliki induk yang sama seperti elemen gambar, sehingga elemen ini akan menerapkan rule dengan menampilkan teks berwarna hijau.</p>
 </body>
 </html>
     <div>
         <img src="../../teoriProgramming/atributSelector.jpg" alt="Baseng">
     </div>
-    <div>
-
     <ul>
         <ul>
             <li><a href="#internal">Internal link</a></li>
@@ -113,9 +100,8 @@
             <li><a href="#InSensitive">Insensitive internal link</a></li>
             <li><a href="http://example.org">Example org link</a></li>
         </ul>
-    </ul>
+    </ul><br>
 </body>
-
 </html>
 </body>
 </html>
