@@ -31,6 +31,10 @@ body {
   padding-top: 85px;
 }
 
+li {
+  font-weight: bold;
+}
+
 .header li {
   float: right;
   padding: 30px;
@@ -44,8 +48,12 @@ body {
 .footer {
   height: 170px;
   background-color: grey;
+  color: white;
 }
 
+.footer-logo {
+  float: left;
+}
 .footer-logo img {
   width: 140px;
   padding-top: 18px;
@@ -53,12 +61,16 @@ body {
 
 .footer-list {
   float: right;
+  padding-right: 30px;
 }
 
 .footer ul {
   float: right;
+  list-style: none;
 }
 
 .footer li {
   float: right;
+  padding: 30px;
+  text-shadow: 5px 5px 5px rgb(68, 66, 66);
 }
