@@ -2,12 +2,8 @@ body {
   font-family: helvetica;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
 
-.header {
+.jumbot {
   height: 150px;
   background-image: url(../../folderPenting!/bahanFoto/pexels1/pexels-eric-esma-876228.jpg);
   color: rgb(255, 255, 255);
@@ -62,6 +58,7 @@ main {
 .footer-logo {
   float: left;
 }
+
 .footer-logo img {
   width: 140px;
   padding-top: 18px;
