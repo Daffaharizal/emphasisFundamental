@@ -41,7 +41,15 @@ li {
   text-shadow: 5px 5px 5px grey;
 }
 
-.main {
+article {
+  background-color: green;
+}
+
+figure {
+  background-color: greenyellow;
+}
+
+main {
   height: 600px;
 }
 
