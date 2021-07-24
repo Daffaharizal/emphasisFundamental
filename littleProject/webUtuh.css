@@ -48,16 +48,31 @@ li {
   font-weight: bold;
 }
 
-article {
-  background-color: green;
-}
-
-figure {
-  background-color: greenyellow;
-}
-
 main {
   height: 600px;
+  overflow: auto;
+}
+
+#content {
+  width: 75%;
+  height: 300px;
+  padding-left: 30px;
+}
+
+a {
+  color: black;
+}
+
+#heading {
+  color: black;
+  padding: 20px;
+}
+
+.card {
+  box-shadow: 0 2px 5px 0 black;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 20px;
 }
 
 .footer {
