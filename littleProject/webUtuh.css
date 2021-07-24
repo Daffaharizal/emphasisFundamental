@@ -91,7 +91,6 @@ main {
   text-shadow: 2px 2px 2px rgb(68, 66, 66);
 }
 
-/* class dari li footer yang paling bawah */
-.id a {
+a {
   text-decoration: none;
 }
