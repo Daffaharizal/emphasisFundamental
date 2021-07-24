@@ -88,10 +88,10 @@ main {
 .footer li {
   float: right;
   padding: 30px;
-  text-shadow: 5px 5px 5px rgb(68, 66, 66);
+  text-shadow: 2px 2px 2px rgb(68, 66, 66);
 }
 
 /* class dari li footer yang paling bawah */
-.id {
+.id a {
   text-decoration: none;
 }
