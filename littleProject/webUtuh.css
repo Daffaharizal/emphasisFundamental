@@ -9,26 +9,25 @@ body {
 }
 
 .jumbot {
-  background-image: url(../../folderPenting!/bahanFoto/pexels1/pexels-eric-esma-876228.jpg);
-  color: rgb(255, 255, 255);
+  background-color: grey;
   font-weight: bold;
   padding: 60px;
   text-align: center;
 }
 
-.jumbot p {
-  font-size: 20px;
-  color: blue;
-  background-color: white;
+.jumbot h1 {
+  color: rgb(226, 226, 226);
 }
 
-h2 {
-  text-align: left;
+.jumbot p {
+  font-size: 20px;
+  color: rgb(9, 9, 112);
 }
+
 
 nav {
   background-color: rgb(0, 0, 0);
-  padding: 10px;
+  padding: 15px;
 }
 
 nav li {
@@ -40,25 +39,10 @@ nav li {
 nav a {
   text-decoration: none;
   color: white;
+  font-size: 15px;
+  text-shadow: 1px 1px grey;
 }
 
-/* nav {
-  background-color: #00a2c6;
-  padding: 5px;
-}
-
-nav li {
-  display: inline;
-  list-style-type: none;
-  margin-right: 20px;
-}
-
-nav a {
-  font-size: 18px;
-  font-weight: 400;
-  text-decoration: none;
-  color: white;
-} */
 
 li {
   font-weight: bold;
