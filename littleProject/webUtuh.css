@@ -9,6 +9,7 @@ body {
 
 a:hover {
   color: blue;
+  font-weight: bold;
 }
 
 .jumbot {
@@ -49,6 +50,12 @@ li {
   font-weight: bold;
 }
 
+li>a {
+  font-weight: 400;
+}
+
+
+
 main {
   padding: 10px;
   height: 1000px;
@@ -88,8 +95,8 @@ h3 {
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
   margin-top: 30px;
   border-radius: 5px;
-
 }
+
 
 table {
   width: 50%;
@@ -128,6 +135,8 @@ a {
 #heading {
   color: black;
 }
+
+
 
 
 aside {
