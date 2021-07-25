@@ -111,7 +111,7 @@ td {
 }
 
 td:hover {
-  background-color: red;
+  background-color: rgb(251, 255, 0);
 }
 
 th {
