@@ -7,6 +7,10 @@ body {
   margin: 0;
 }
 
+a:hover {
+  color: blue;
+}
+
 .jumbot {
   background-color: grey;
   font-weight: bold;
@@ -39,7 +43,6 @@ nav a {
   text-decoration: none;
   color: white;
   font-size: 15px;
-  text-shadow: 1px 1px grey;
 }
 
 li {
@@ -89,7 +92,7 @@ h3 {
 }
 
 table {
-  width: 100%;
+  width: 50%;
   margin: 20px;
   /* border-collapse: collapse; */
   border: 1px solid black;
@@ -107,8 +110,12 @@ td {
   text-align: center;
 }
 
+td:hover {
+  background-color: red;
+}
+
 th {
-  background-color: rgb(53, 53, 53);
+  background-color: rgb(95, 95, 95);
   color: white;
 }
 
@@ -144,6 +151,10 @@ footer {
   color: rgb(194, 194, 194);
   font-family: helvetica;
   margin: 0;
+}
+
+ul>li:hover {
+  color: white;
 }
 
 footer nav ul {
