@@ -5,8 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>v2.css.6</title>
+    <style>
+        /* rule akan diterapkan pada sebuah tautan ketika diarahkan dengan kursor */
+        a:hover {
+            color: blue;
+        }
+
+        /* rule akan diterapkan pada sebuah tautan yang belum pernah dikunjungi */
+        a:link {
+            color: red;
+        }
+
+        /* rule akan diterapkan pada sebuah tautan yang sudah pernah dikunjungi */
+        a:visited {
+            color: green;
+        }
+
+        /* rule akan diterapkan ketika ditekan */
+        a:active {
+            color: orange;
+        }
+
+        a {
+            color: black;
+        }
+
+        li {
+            list-style: none;
+            padding: 5px;
+        }
+
+
+    </style>
 </head>
 <body>
-    
+    <!-- pseudo selector -->
+    <!-- contoh : a:hover -->
+    <!-- elemen anchor akan berwarna biru jika kursor diletakkan pada eleme tsb -->
+    <div>
+        <nav>
+            <ol>
+                <li><a href="#">Pertama</a></li>
+                <li><a href="#">Pertama</a></li>
+                <li><a href="#">Ketiga</a></li>
+                <li><a href="#">Keempat</a></li>
+                <li><a href="#">Kelima</a></li>
+            </ol>
+        </nav>
+    </div>
+    <ul>
+        <li><a href="#">Laju</a></li>
+        <li><a href="#">Babat</a></li>
+    </ul>
+
 </body>
 </html>
