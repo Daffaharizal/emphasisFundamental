@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vs.css.11</title>
+    <style>
+        a {
+            text-decoration: none;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        div > p {
+            text-decoration: underline;
+        }
+
+        .p1 {
+            /* merubah teks menjadi huruf kecil semua */
+            text-transform: lowercase;
+            /* space per-huruf */
+            letter-spacing: 2px;
+        }
+
+        .p2 {
+            /* merubah teks menjadi huruf besar semua */
+            text-transform: uppercase;
+            /* space per-kata */
+            word-spacing: 5px;
+        }
+
+        .p3 {
+            /* merubah teks menjadi huruf kapital per-katanya */
+            text-transform: capitalize;
+            /* 1:kiri-kanan, 2:atas-bawah, 3:keburaman, 4:warna */
+            text-shadow: 0 0 10px grey;
+        }
+
+        .p1, .p2, .p3 {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<!-- membahas text-decoration, text-transform, word-spacing, letter-spacing -->
+
+    <ul>
+        <li><a href="#">Contoh list</a></li>
+    </ul>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eligendi, obcaecati at inventore natus, ratione debitis assumenda sit autem est quae officiis soluta animi vitae. Quibusdam rerum molestiae culpa molestias.</p>
+    </div>
+    <p class="p1">Hruf kecil semua; letter space: 2px</p>
+    <p class="p2">Huruf besar semua; word space: 5px</p>
+    <p class="p3">Huruf kapital per-kata</p>
+</body>
+</html>
