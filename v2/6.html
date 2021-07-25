@@ -24,6 +24,8 @@
         /* rule akan diterapkan ketika ditekan */
         a:active {
             color: orange;
+            font-weight: bold;
+            text-decoration: none;
         }
 
         a {
@@ -35,28 +37,25 @@
             padding: 5px;
         }
 
+        /* untuk menambahkan sesuatu sebelum atau sesudah elemen inti */
+        p::after {
+           font-size: 32px;
+           font-weight: bold;
+           color: saddlebrown;
+           content: "";
+       }
+
 
     </style>
 </head>
 <body>
-    <!-- pseudo selector -->
+    <!-- pseudo selector, pseudo class selector, pseudo-elemen selector -->
     <!-- contoh : a:hover -->
     <!-- elemen anchor akan berwarna biru jika kursor diletakkan pada eleme tsb -->
-    <div>
-        <nav>
-            <ol>
-                <li><a href="#">Pertama</a></li>
-                <li><a href="#">Pertama</a></li>
-                <li><a href="#">Ketiga</a></li>
-                <li><a href="#">Keempat</a></li>
-                <li><a href="#">Kelima</a></li>
-            </ol>
-        </nav>
-    </div>
-    <ul>
-        <li><a href="#">Laju</a></li>
-        <li><a href="#">Babat</a></li>
-    </ul>
+    <a href="https://progate.com">Google</a>
+    <a href="https://www.dicoding.com">Dicoding</a>
 
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta similique, eos velit ducimus nostrum modi dignissimos, iusto quis eveniet, in provident distinctio iste quidem magnam! Ex saepe laudantium explicabo quaerat.</p>
 </body>
 </html>
