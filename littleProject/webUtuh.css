@@ -24,18 +24,18 @@ a:hover {
   font-weight: bold;
 }
 
-.jumbot {
+.jumbotron {
   background-color: grey;
   font-weight: bold;
   padding: 60px;
   text-align: center;
 }
 
-.jumbot h1 {
+.jumbotron h1 {
   color: rgb(226, 226, 226);
 }
 
-.jumbot p {
+.jumbotron p {
   font-size: 25px;
   color: rgb(9, 9, 112);
 }
