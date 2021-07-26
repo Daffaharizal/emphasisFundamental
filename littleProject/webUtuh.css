@@ -168,6 +168,8 @@ footer {
   margin: 0;
   /* font-weight: normal; */
   font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  font-weight: 100;
 }
 
 ul>li:hover {
