@@ -15,11 +15,24 @@
             margin: 0;
             padding: 0;
         }
-        .box {
+
+        .inti {
             width: 50%;
             height: 300px;
+            padding: 20px;
+            box-sizing : border-box;
+        }
+        .satu {
             background-color: limegreen;
             padding: 20px;
+            border: 5px solid black;
+        }
+
+        .dua {
+            margin-top: 10px;
+            background-color: limegreen;
+            padding: 20px;
+            border: 5px solid black;
         }
 
         p {
@@ -29,8 +42,12 @@
             border-radius: 10px;
             border: 3px solid black;
             background-color: magenta;
+            /* box-sizing akan sangat berguna agar lebar nya tetap */
+            /* khusunya mengatur dimensi dari kotak */
             box-sizing: border-box;
         }
+
+
         
     </style>
 </head>
@@ -39,12 +56,16 @@
     <!-- LIMITING DIMENSIONS -->
     <!-- atribut overflow : visble(normal); hidden; scroll; auto (fleksibel bisa jadi seperti scroll juga) -->
     <!-- BOX SIZING -->
-    <div class="box">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem quibusdam aliquam numquam error accusantium nulla velit esse qui perspiciatis, omnis quidem, quas ipsa ducimus enim dolore nemo quis fugiat et?</p>
+    <div class="inti">
+        <div class="satu">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem quibusdam aliquam numquam error accusantium nulla velit esse qui perspiciatis, omnis quidem, quas ipsa ducimus enim dolore nemo quis fugiat et?</p>
+        </div>
+        <div class="dua">
+            <ul>
+                <li>Mengggunakan : min/max-width</li>
+                <li>Menggunakan : min/max-height</li>
+            </ul>
+        </div>
     </div>
-    <ul>
-        <li>Mengggunakan : min/max-width</li>
-        <li>Menggunakan : min/max-height</li>
-    </ul>
 </body>
 </html>
