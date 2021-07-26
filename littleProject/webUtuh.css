@@ -153,6 +153,10 @@ aside {
   color: black;
 }
 
+.profile header {
+  text-align: center;
+}
+
 figcaption {
   font-size: 12px;
 }
