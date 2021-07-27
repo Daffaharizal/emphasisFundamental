@@ -9,6 +9,11 @@ body {
   margin: 0;
 }
 
+.header1 {
+  position: fixed;
+  width: 100%;
+}
+
 ul {
   list-style: none;
 }
@@ -38,7 +43,7 @@ a:hover {
 
 .jumbotron p {
   font-size: 25px;
-  color: rgb(9, 9, 112);
+  color: rgb(0, 0, 0);
 }
 
 
@@ -69,7 +74,8 @@ li>a {
 
 main {
   padding: 20px;
-  height: 1300px;
+  height: 1500px;
+  padding-top: 300px;
 }
 
 #content {
