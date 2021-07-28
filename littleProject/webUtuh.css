@@ -20,6 +20,7 @@ body {
   box-sizing: border-box;
 }
 
+
 .header1 nav {
   width: 100%;
   background-color: blue;
@@ -49,19 +50,20 @@ a:hover {
 }
 
 .jumbotron {
-  background-color: grey;
+  background-color: #e2e2e2;
   font-weight: bold;
   padding: 30px;
   text-align: center;
 }
 
 .jumbotron h1 {
-  color: rgb(226, 226, 226);
+  color: rgb(80, 80, 80);
 }
 
 .jumbotron p {
   font-size: 25px;
-  color: rgb(0, 0, 0);
+  color: blue;
+  margin-top: 0.5%;
 }
 
 nav li {
@@ -85,7 +87,7 @@ li>a {
 }
 
 main {
-  height: 1500px;
+  height: 1200px;
   overflow: auto;
   padding: 10px;
 }
@@ -123,6 +125,7 @@ h3 {
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
   margin-top: 30px;
   border-radius: 5px;
+  height: 310px;
 }
 
 .content2 div {
@@ -133,6 +136,7 @@ h3 {
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   margin-top: 30px;
+  height: 270px;
 }
 
 
@@ -173,6 +177,10 @@ a {
   text-decoration: none;
 }
 
+h4 {
+  margin-top: 5%;
+}
+
 
 #heading {
   color: black;
@@ -191,7 +199,7 @@ aside {
 }
 
 figure {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .profile header {
@@ -204,13 +212,14 @@ figcaption {
 
 footer {
   background-color: grey;
-  color: rgb(194, 194, 194);
+  color: rgb(53, 53, 53);
   font-family: helvetica;
   margin: 0;
   /* font-weight: normal; */
   font-family: 'Quicksand', sans-serif;
   text-align: center;
   font-weight: 100;
+  padding: 20px;
 }
 
 footer ul>li:hover {
@@ -228,4 +237,5 @@ footer li {
 
 .li1 {
   padding-left: 650px;
+  font-weight: bold;
 }
