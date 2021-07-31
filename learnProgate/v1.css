@@ -46,7 +46,7 @@ a:hover {
 
 .jumbotron {
     text-align: center;
-    padding: 100px;
+    padding: 70px;
     background-color: rgb(41, 38, 38);
     color: white;
 }
@@ -55,4 +55,16 @@ a:hover {
     letter-spacing: 2px;
 }
 
-.jumbotron p {}
+.jumbotron a {
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.jumbotron a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
