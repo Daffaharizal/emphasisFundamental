@@ -31,13 +31,6 @@ li a {
     padding-left: 1px;
 }
 
-.jumbotron {
-    text-align: center;
-    padding: 100px;
-    background-color: rgb(41, 38, 38);
-    color: white;
-}
-
 .li1 {
     margin-right: 80px;
 }
@@ -50,3 +43,16 @@ li a {
 a:hover {
     border-bottom: 2px solid black;
 }
+
+.jumbotron {
+    text-align: center;
+    padding: 100px;
+    background-color: rgb(41, 38, 38);
+    color: white;
+}
+
+.jumbotron h1 {
+    letter-spacing: 2px;
+}
+
+.jumbotron p {}
