@@ -12,30 +12,32 @@ body {
 /* HALAMAN HEADER */
 /* NAVBAR */
 header nav {
-    background-color: rgb(180, 180, 180);
+    background-color: rgb(180, 180, 180, 0.3);
     padding: 25px;
     color: black;
+
 }
 
 header ul {
     list-style: none;
-    margin-left: 30px;
 }
 
 li {
-    padding: 10px;
+    padding: 20px;
     display: inline;
 }
 
 li a {
     text-decoration: none;
-    padding-bottom: 5px;
-    padding-left: 1px;
+    margin: 30px;
     color: inherit;
+    padding-right: 1px;
+    padding-bottom: 5px;
 }
 
-.li1 {
-    margin-right: 80px;
+.li2 {
+    float: right;
+    padding: 0;
 }
 
 .li1 a {
