@@ -37,6 +37,8 @@ header nav a:hover {
   color: white;
   border-bottom: 2px solid white;
   font-weight: bold;
+  transition: background-color 2s;
+  background-color: red;
 }
 
 main a:hover {
