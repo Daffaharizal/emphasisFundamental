@@ -163,7 +163,9 @@ td {
 }
 
 td:hover {
-  background-color: rgb(59, 95, 255, 0.1);
+  background-color: rgb(59, 95, 255, 0.5);
+  color: white;
+  font-weight: bold;
 }
 
 th {
