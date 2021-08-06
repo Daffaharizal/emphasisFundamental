@@ -164,6 +164,7 @@ th {
 
 th:hover {
   color: rgb(185, 185, 185);
+  background-color: rgb(73, 73, 73);
 }
 
 td:hover {
