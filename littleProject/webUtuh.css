@@ -42,7 +42,7 @@ header nav a:hover {
 }
 
 main a:hover {
-  color: rgb(0, 0, 255, 0.6);
+  color: rgb(0, 0, 0);
   font-weight: 700;
 
 }
@@ -121,7 +121,7 @@ h3 {
 }
 
 h3:hover {
-  background: blue;
+  background: rgb(0, 0, 255, 0.3);
   color: black;
   border-bottom: 3px solid rgb(0, 0, 0, 0.5);
   border-left: 3px solid rgb(0, 0, 0, 0.5);
