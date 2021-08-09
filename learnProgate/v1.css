@@ -49,6 +49,18 @@ a:hover {
     border-bottom: 2px solid black;
 }
 
+nav ul li:hover .dropdown {
+    display: block;
+}
+
+nav ul .dropdown {
+    display: none;
+    position: absolute;
+    left: 150px;
+    top: 50px;
+    background-color: black;
+}
+
 /* NAVBAR */
 /* JUMBOTRON */
 
