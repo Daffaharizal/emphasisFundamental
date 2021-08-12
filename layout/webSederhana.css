@@ -11,15 +11,18 @@ body {
     color: #333;
 }
 
-.header {
+.container {
     margin: auto;
     width: 1000px;
-    padding: 20px;
     background-color: #fff;
 }
 
+.header {
+    padding: 20px;
+}
+
 .header h1 {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .header ul li {
@@ -28,5 +31,4 @@ body {
 
 .header ul li a:hover {
     font-weight: 700;
-    background-color: rgb(202, 202, 202);
 }
