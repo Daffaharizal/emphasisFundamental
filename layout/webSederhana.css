@@ -41,3 +41,11 @@ body {
 
 /* HEADER */
 /* CONTAINER */
+
+/* HERO-IMAGE */
+.hero {
+    height: 350px;
+    background-image: url(img/hero.jpg);
+    background-size: cover;
+    background-position: 0 -170px;
+}
