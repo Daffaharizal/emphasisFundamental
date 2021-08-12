@@ -11,6 +11,9 @@ body {
     color: #333;
 }
 
+/* CONTAINER */
+/* HEADER */
+
 .container {
     margin: auto;
     width: 1000px;
@@ -35,3 +38,6 @@ body {
 .header ul li a:hover {
     font-weight: 700;
 }
+
+/* HEADER */
+/* CONTAINER */
