@@ -27,7 +27,7 @@ body {
 .header ul li {
     display: inline-block;
     margin-right: 25px;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .header ul li a {
@@ -55,4 +55,13 @@ body {
 /* CONTENT */
 .content {
     padding: 20px;
+}
+
+.content .penulis {
+    line-height: 30px;
+}
+
+.content a {
+    color: salmon;
+    text-decoration: none;
 }
