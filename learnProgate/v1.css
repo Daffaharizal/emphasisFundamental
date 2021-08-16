@@ -13,17 +13,25 @@ body {
 /* NAVBAR */
 header nav {
     background-color: rgb(180, 180, 180, 0.3);
-    padding: 25px;
+    padding: 12px;
     color: black;
+    height: 80px;
+    box-sizing: border-box;
 }
 
 header ul {
     list-style: none;
+    box-sizing: border-box;
 }
 
 nav li {
     display: inline-block;
     color: black;
+}
+
+nav ul li img {
+    width: 50px;
+    margin-left: 20px;
 }
 
 li a {
@@ -32,11 +40,14 @@ li a {
     padding-right: 1px;
     padding-bottom: 5px;
     margin: 30px;
+    text-align: center;
+
 }
 
 .li2 {
     float: right;
     padding: 0;
+    line-height: 56.4px;
 }
 
 .li22 {
@@ -50,18 +61,6 @@ li a {
 
 a:hover {
     border-bottom: 2px solid black;
-}
-
-nav ul li:hover .dropdown {
-    display: block;
-}
-
-nav ul .dropdown {
-    display: none;
-    position: absolute;
-    left: 150px;
-    top: 50px;
-    background-color: black;
 }
 
 /* NAVBAR */
