@@ -59,11 +59,17 @@ body {
     clear: left;
 }
 
+.content {
+    padding: 10px;
+}
+
 .main {
-    padding: 20px;
+    padding: 15px;
     width: 600px;
     box-sizing: border-box;
+    border-radius: 5px;
     float: left;
+    box-shadow: 0 0 5px black;
 }
 
 .main h2 {
@@ -100,6 +106,16 @@ body {
 .bawah span {
     color: red;
     line-height: 35px;
+}
+
+/* SIDEBAR */
+.sidebar {
+    padding: 10px;
+    width: 320px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    float: right;
+    box-shadow: 0 0 5px black;
 }
 
 /* FOOTER */
