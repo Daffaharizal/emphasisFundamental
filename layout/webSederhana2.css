@@ -16,7 +16,7 @@ body {
 
 .container {
     margin: auto;
-    width: 800px;
+    width: 960px;
     background-color: #fff;
 }
 
@@ -48,36 +48,44 @@ body {
     height: 350px;
     background-image: url(img/hero.jpg);
     background-size: cover;
-    background-position: 0 -100px;
+    background-position: 0 -160px;
     border-top: 5px solid rgba(0, 0, 0, 0.7);
     border-bottom: 5px solid rgba(0, 0, 0, 0.7);
 }
 
 /* CONTENT */
-.content {
-    padding: 20px;
+
+.clear {
+    clear: left;
 }
 
-.content h2 {
+.main {
+    padding: 20px;
+    width: 600px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.main h2 {
     text-align: center;
     margin-bottom: 20px;
     font-size: 35px;
 }
 
-.content .penulis {
+.main .penulis {
     line-height: 30px;
 }
 
-.content p {
+.main p {
     line-height: 25px;
 }
 
-.content a {
+.main a {
     color: salmon;
     text-decoration: none;
 }
 
-.content a:hover {
+.main a:hover {
     text-decoration: underline;
 }
 
@@ -104,4 +112,21 @@ body {
 .footer p {
     line-height: 22px;
     text-align: center;
+}
+
+/* Micro Clearfix */
+.cf:before,
+.cf:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
 }
