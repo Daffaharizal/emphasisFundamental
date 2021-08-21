@@ -6,70 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Float layout</title>
     <style>
-        .container {
-            width: 620px;
-            border: 2px solid black;
-            padding: 10px;
-            margin: auto;
-            background-color: blanchedalmond;
-            box-sizing: border-box;
-        }
-
-        .kiri {
+        div {
             width: 200px;
             height: 200px;
-            background-color: salmon;
-            float:left;
         }
 
-        .tengah {
-            width: 150px;
-            height: 150px;
-            background-color: green;
-            float:left;
-        }
-
-        .kanan {
-            width: 245px;
-            height: 250px;
+        .satu {
             background-color: red;
-            float:left;
         }
 
-                /**
-        * For modern browsers
-        * 1. The space content is one way to avoid an Opera bug when the
-        *    contenteditable attribute is included anywhere else in the document.
-        *    Otherwise it causes space to appear at the top and bottom of elements
-        *    that are clearfixed.
-        * 2. The use of `table` rather than `block` is only necessary if using
-        *    `:before` to contain the top-margins of child elements.
-        */
-        .cf:before,
-        .cf:after {
-            content: " "; /* 1 */
-            display: table; /* 2 */
+        .dua {
+            background-color: green;
+            
         }
 
-        .cf:after {
-            clear: both;
+        .tiga {
+            background-color: blue;
         }
-
-        /**
-        * For IE 6/7 only
-        * Include this rule to trigger hasLayout and contain floats.
-        */
-        .cf {
-            *zoom: 1;
-        }
-
     </style>
 </head>
 <body>
-    <div class="container cf">
-        <div class="kiri"></div>
-        <div class="tengah"></div>
-        <div class="kanan"></div>
-    </div>
+    <div class="satu"></div>
+    <div class="dua"></div>
+    <div class="tiga"></div>
 </body>
 </html>
