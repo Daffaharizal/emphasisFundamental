@@ -120,6 +120,12 @@ body {
 
 .sidebar h3 {
     text-align: center;
+    margin-bottom: 5px;
+}
+
+.sidebar img {
+    float: left;
+    padding-right: 10px;
 }
 
 /* SIDEBAR */
