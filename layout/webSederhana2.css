@@ -118,6 +118,11 @@ body {
     box-shadow: 0 0 5px black;
 }
 
+.sidebar h3 {
+    text-align: center;
+}
+
+/* SIDEBAR */
 /* FOOTER */
 .footer {
     color: white;
